@@ -1,8 +1,5 @@
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faAngleLeft } from '@fortawesome/free-solid-svg-icons'
 import React, { useEffect, useState } from 'react'
 import classNames from 'classnames'
-import { Button } from 'react-bootstrap'
 import SidebarNav from './SidebarNav'
 
 export default function Sidebar(props: { isShow: boolean; isShowMd: boolean }) {
