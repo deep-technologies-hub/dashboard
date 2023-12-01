@@ -3,6 +3,7 @@ import {
   IconDefinition,
 } from '@fortawesome/free-regular-svg-icons'
 import {
+  faRightToBracket,
   faChevronUp,
   faGauge,
 } from '@fortawesome/free-solid-svg-icons'
@@ -129,7 +130,7 @@ export default function SidebarNav() {
       <SidebarNavTitle>Extras</SidebarNavTitle>
 
       <SidebarNavGroup toggleIcon={faStar} toggleText="Pages">
-        <SidebarNavItem icon={faRightToBracket} href="login">Login</SidebarNavItem>
+        <SidebarNavItem icon={faRightToBracket} href="login">Logout</SidebarNavItem>
         <SidebarNavItem icon={faAddressCard} href="register">Register</SidebarNavItem>
       </SidebarNavGroup>
 
@@ -141,6 +142,7 @@ export default function SidebarNav() {
       <SidebarNavItem icon={faGauge} href="/stats_abonnes">STATS ABONNES</SidebarNavItem>
       <SidebarNavItem icon={faGauge} href="/eligibles">ELIGIBLES</SidebarNavItem>
       <SidebarNavItem icon={faGauge} href="/gagnants">LISTE DES GAGNANTS</SidebarNavItem>
+      <SidebarNavItem icon={faRightToBracket} href="login">Logout</SidebarNavItem>
     </ul>
   )
 }
