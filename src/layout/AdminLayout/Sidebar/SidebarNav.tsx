@@ -5,8 +5,13 @@ import {
 import {
   faRightToBracket,
   faChevronUp,
-  faGauge,
-} from '@fortawesome/free-solid-svg-icons'
+  faHome, // Supposons que c'est pour "ACCUEIL"
+  faSms, // Pour "TRAFIC SMS & USSD"
+  faChartLine, // Pour "STATS ABONNES"
+  faUserCheck, // Pour "ELIGIBLES"
+  faListAlt, // Pour "LISTE DES GAGNANTS"
+} from '@fortawesome/free-solid-svg-icons';
+
 import React, {
   PropsWithChildren, useContext, useEffect, useState,
 } from 'react'
@@ -137,11 +142,11 @@ export default function SidebarNav() {
       <SidebarNavItem icon={faFileLines} href="#">Docs</SidebarNavItem>
       <br/> */}
       <br/><br/><br/>
-      <SidebarNavItem icon={faGauge} href="/accueil">ACCUEIL</SidebarNavItem>
-      <SidebarNavItem icon={faGauge} href="/trafic_sms_&_ussd">TRAFIC SMS & USSD</SidebarNavItem>
-      <SidebarNavItem icon={faGauge} href="/stats_abonnes">STATS ABONNES</SidebarNavItem>
-      <SidebarNavItem icon={faGauge} href="/eligibles">ELIGIBLES</SidebarNavItem>
-      <SidebarNavItem icon={faGauge} href="/gagnants">LISTE DES GAGNANTS</SidebarNavItem>
+      <SidebarNavItem icon={faHome} href="/accueil">ACCUEIL</SidebarNavItem>
+      <SidebarNavItem icon={faSms} href="/trafic_sms_&_ussd">TRAFIC SMS & USSD</SidebarNavItem>
+      <SidebarNavItem icon={faChartLine} href="/stats_abonnes">STATS ABONNES</SidebarNavItem>
+      <SidebarNavItem icon={faUserCheck} href="/eligibles">ELIGIBLES</SidebarNavItem>
+      <SidebarNavItem icon={faListAlt} href="/gagnants">LISTE DES GAGNANTS</SidebarNavItem>
       <SidebarNavItem icon={faRightToBracket} href="login">Logout</SidebarNavItem>
     </ul>
   )
