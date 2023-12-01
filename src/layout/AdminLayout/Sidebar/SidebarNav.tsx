@@ -10,7 +10,7 @@ import {
   faChartLine, // Pour "STATS ABONNES"
   faUserCheck, // Pour "ELIGIBLES"
   faListAlt, // Pour "LISTE DES GAGNANTS"
-} from '@fortawesome/free-solid-svg-icons';
+} from '@fortawesome/free-solid-svg-icons'
 
 import React, {
   PropsWithChildren, useContext, useEffect, useState,
