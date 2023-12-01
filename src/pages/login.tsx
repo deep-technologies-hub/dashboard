@@ -102,16 +102,17 @@ const Login: NextPage = () => {
               </Col>
               <Col
                 md={5}
-                className="bg-primary text-white d-flex align-items-center justify-content-center p-5"
+                className="bg-primary text-white d-flex align-items-center justify-content-center p-5 divBackground"
               >
-                <div className="text-center">
-                  <Image
+                <div className="text-center ">
+                  {/* <Image
                     alt='1234'
-                   src="/assets/img/image.jpg"
+                    src="/assets/img/image.jpg"
                     width={500}  // Spécifiez la largeur
                     height={300} // Spécifiez la hauteur
-                    layout="responsive" // alt="1234" 
-                    />
+                    layout="responsive" // alt="1234"
+                    objectFit="cover" // 
+                    /> */}
                 </div>
               </Col>
             </Row>
