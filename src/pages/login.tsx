@@ -2,6 +2,7 @@ import { NextPage } from 'next'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faUser } from '@fortawesome/free-regular-svg-icons'
 import { faLock } from '@fortawesome/free-solid-svg-icons'
+import Image, { ImageProps } from 'next/image'
 import {
   Button, Col, Container, Form, InputGroup, Row,
 } from 'react-bootstrap'
@@ -104,16 +105,13 @@ const Login: NextPage = () => {
                 className="bg-primary text-white d-flex align-items-center justify-content-center p-5"
               >
                 <div className="text-center">
-                  <h2>Sign up</h2>
-                  <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                    tempor incididunt ut labore et dolore magna aliqua.
-                  </p>
-                  <Link href="/register">
-                    <button className="btn btn-lg btn-outline-light mt-3" type="button">
-                      Register Now!
-                    </button>
-                  </Link>
+                  <Image
+                    alt='1234'
+                   src="/assets/img/image.jpg"
+                    width={500}  // Spécifiez la largeur
+                    height={300} // Spécifiez la hauteur
+                    layout="responsive" // alt="1234" 
+                    />
                 </div>
               </Col>
             </Row>
