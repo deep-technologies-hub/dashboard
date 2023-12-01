@@ -40,7 +40,7 @@ const TRAFIC: NextPage = () => (
       <div className="col-md-12">
         <Card>
           <Card.Header>
-            Traffic &amp; Sales
+            TRAFIC SMS & USSD
           </Card.Header>
           <Card.Body>
         <div className="d-flex justify-content-between">
