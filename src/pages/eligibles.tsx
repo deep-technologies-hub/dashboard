@@ -45,7 +45,7 @@ const TableauExemple = () => {
       { jour: 43, date: "12-11-2023", participants: 13573, details: "Micro onde + Kit Alimentaire" },
       { jour: 42, date: "11-11-2023", participants: 9276, details: "Micro onde + Kit Alimentaire" },
       // Vous pouvez continuer à ajouter d'autres lignes selon le besoin
-    ];
+    ]
   
     return (
     <div>

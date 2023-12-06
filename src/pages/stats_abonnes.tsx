@@ -30,7 +30,7 @@ const TableauExemple = () => {
     { telephone: "22664476883", contenu: "MERCI", mode: "SMS", dateEnvoi: "2023-11-18 12:59:33" },
     { telephone: "22607503129", contenu: "MERCI", mode: "SMS", dateEnvoi: "2023-11-18 12:59:30" }
     // Ajoutez d'autres lignes de données ici si nécessaire
-  ];
+  ]
 
   return (
   <div>

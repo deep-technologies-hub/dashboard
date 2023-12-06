@@ -42,7 +42,7 @@ const TableauExemple = () => {
       { semaine: "Du 12/11/2023", telephone: "22676564565", points: 1395, prix: "Micro onde", dateAjoutee: "16/11/2023" },
       { semaine: "Du 11/11/2023", telephone: "22675592535", points: 2545, prix: "Micro onde", dateAjoutee: "16/11/2023" },
       // Vous pouvez continuer à ajouter d'autres lignes selon le besoin
-    ];
+    ]
   
     return (
         
