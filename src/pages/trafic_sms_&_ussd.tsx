@@ -64,7 +64,7 @@ const TableauExemple = () => {
           <thead className="table-light fw-semibold">
             <tr className="align-middle">
               <th style={{ textAlign: 'center' }}>Jour</th>
-              {[...Array(23).keys()].map(h => (
+              {Array.from(Array(23).keys()).map(h => (
                 <th key={h} style={{ textAlign: 'center' }}>{h}</th>
               ))}
             </tr>
