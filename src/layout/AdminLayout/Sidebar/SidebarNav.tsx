@@ -147,7 +147,7 @@ export default function SidebarNav() {
       <SidebarNavItem icon={faChartLine} href="/stats_abonnes">STATS ABONNES</SidebarNavItem>
       <SidebarNavItem icon={faUserCheck} href="/eligibles">ELIGIBLES</SidebarNavItem>
       <SidebarNavItem icon={faListAlt} href="/gagnants">LISTE DES GAGNANTS</SidebarNavItem>
-      <SidebarNavItem icon={faRightToBracket} href="login">Logout</SidebarNavItem>
+      {/* <SidebarNavItem icon={faRightToBracket} href="login">Logout</SidebarNavItem> */}
     </ul>
   )
 }

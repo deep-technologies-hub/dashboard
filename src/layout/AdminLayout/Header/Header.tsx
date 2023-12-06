@@ -1,6 +1,9 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faBars } from '@fortawesome/free-solid-svg-icons'
 import { Button, Container } from 'react-bootstrap'
+import {
+  faRightToBracket,
+} from '@fortawesome/free-solid-svg-icons'
 
 type HeaderProps = {
   toggleSidebar: () => void;
@@ -12,7 +15,7 @@ export default function Header(props: HeaderProps) {
 
   return (
     <header className="header sticky-top mb-4 py-2 px-sm-2 border-bottom">
-      <Container fluid className="header-navbar d-flex align-items-center">
+      <Container fluid className="header-navbar d-flex align-items-center justify-content-between">
         <Button
           variant="link"
           className="header-toggler d-md-none px-md-0 me-md-3 rounded-0 shadow-none"
@@ -29,7 +32,12 @@ export default function Header(props: HeaderProps) {
         >
           <FontAwesomeIcon icon={faBars} />
         </Button>
-        
+
+          <Button href="login" className=" btn btn-secondary">
+            <FontAwesomeIcon icon={faRightToBracket} /> Logout
+          </Button>
+
+
       </Container>
     </header>
   )
