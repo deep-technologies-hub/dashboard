@@ -52,13 +52,13 @@ const TableauExemple = () => {
         <span>1128183 Enregistrements</span>
       </div>
       <div className="export-button" style={{ textAlign: 'right' }}>
-          <button className="btn btn-success">Exporter la liste</button>
+          <Button className="btn btn-success">Exporter la liste</Button>
       </div>
     </div>
     <div className="table-responsive">
       <div className="header-actions">
-        <button className="btn btn-primary tab-button">Stats/Heure</button>
-        <button className="btn btn-secondary tab-button">Stats/Jour</button>
+        <Button className="btn btn-primary tab-button">Stats/Heure</Button>
+        <Button className="btn btn-secondary tab-button">Stats/Jour</Button>
       </div>
         <table className="table border mb-0">
           <thead className="table-light fw-semibold">

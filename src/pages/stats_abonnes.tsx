@@ -1,5 +1,6 @@
 import type { NextPage } from 'next'
-import { Card
+import {
+  Button, ButtonGroup, Card, Dropdown, ProgressBar,
 } from 'react-bootstrap'
 import {
   BarElement,
@@ -39,15 +40,15 @@ const TableauExemple = () => {
         <span>1128183 Enregistrements</span>
       </div>
       <div className="export-button" style={{ textAlign: 'right' }}>
-          <button className="btn btn-success">Exporter la liste</button>
+          <Button className="btn btn-success">Exporter la liste</Button>
       </div>
     </div>
     <div className="table-responsive">
       <div className="header-actions">
-        <button className="btn btn-primary tab-button">Traffic</button>
-        <button className="btn btn-secondary tab-button">Classement</button>
-        <button className="btn btn-secondary tab-button">Inscription</button>
-        <button className="btn btn-secondary tab-button">Recherche</button>
+        <Button className="btn btn-primary tab-button">Traffic</Button>
+        <Button className="btn btn-secondary tab-button">Classement</Button>
+        <Button className="btn btn-secondary tab-button">Inscription</Button>
+        <Button className="btn btn-secondary tab-button">Recherche</Button>
       </div>
       <table className="table border mb-0">
         <thead className="table-light fw-semibold">
