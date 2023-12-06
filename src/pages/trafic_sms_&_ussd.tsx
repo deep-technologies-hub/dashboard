@@ -82,8 +82,8 @@ const TableauExemple = () => {
         </table>
       </div>
     </div>
-  );
-};
+  )
+}
 
 
 const TRAFIC: NextPage = () => (

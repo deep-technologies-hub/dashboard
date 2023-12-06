@@ -72,8 +72,8 @@ const TableauExemple = () => {
       </table>
     </div>
   </div>
-  );
-};
+  )
+}
 
 const STATS: NextPage = () => (
 <AdminLayout>
