@@ -56,7 +56,7 @@ const TableauExemple = () => {
             <th style={{ textAlign: 'center' }}>Téléphone</th>
             <th style={{ textAlign: 'center' }}>Contenu</th>
             <th style={{ textAlign: 'center' }}>Mode</th>
-            <th style={{ textAlign: 'center' }}>Date d'envoi</th>
+            <th style={{ textAlign: 'center' }}>Date d\'envoi</th>
           </tr>
         </thead>
         <tbody>
